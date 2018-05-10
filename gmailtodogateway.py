@@ -124,8 +124,8 @@ while True:
 		server.logout()
 		logger.info('Logged out')
 
-		# Poll account every minute
-		time.sleep(60)
+		# Poll account every 10 minutes
+		time.sleep(600)
 
 	except:
 		logger.info("*****Exception in main loop, retrying in 30 seconds ******")
